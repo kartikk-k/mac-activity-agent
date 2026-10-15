@@ -1,0 +1,18 @@
+# Generated builds and local runtime evidence
+.build/
+build/
+artifacts/
+.swiftpm/
+DerivedData/
+.DS_Store
+*.xcuserstate
+xcuserdata/
+
+# Local credentials, environment files, and signing material
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.mobileprovision
